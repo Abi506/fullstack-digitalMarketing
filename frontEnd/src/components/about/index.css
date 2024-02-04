@@ -1,0 +1,176 @@
+.lading-about-container{
+    display: flex;
+    flex-direction: column;
+}
+.landing-heading-and-para{
+    width:75%;
+    text-align: center;
+    background-color: #738942;
+    padding:20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+}
+.landing-image-container{
+    width:100%;
+    margin-top: 20px;
+}
+.landing-image{
+    width:100%;
+    height: 150px;
+    border-radius: 8px;
+    position: relative;
+    bottom:10px;
+    right: 100%; 
+    animation: slideIn 2s forwards;
+}
+@keyframes slideIn {
+    0% {
+        left: 100%; 
+    }
+    100% {
+        left: 0; 
+    }
+}
+.policy-para{
+    width: 100%;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: proximanova-regular,Arial ;
+}
+.about-card-container{
+    background-color: #738942;
+    padding:20px;
+}
+.about-card-heading{
+text-align: left;
+color:#fff;
+font-family: "ProximaNova-Extrabld",Arial;
+font-size: 20px;
+}
+.about-card-para{
+font-family: "ProximaNova-Extrabld",Arial;
+font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+.highlighter-about{
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.about-our-services-container{
+padding:20px;
+}
+.about-services-heading{text-align: left;
+    font-family: "ProximaNova-Extrabld",Arial;
+    font-size: 20px;
+
+}
+.about-services-para{
+    font-family: "ProximaNova-Extrabld",Arial;
+    font-size: 16px;
+        line-height: 30px;
+        
+}
+.about-history-container{
+padding:20px;
+background-color: #738942;
+}
+.about-history-heading{
+    text-align: left;
+    color:#fff;
+    font-family: "ProximaNova-Extrabld",Arial;
+    font-size: 20px;
+}
+.about-history-para{
+    font-family: "ProximaNova-Extrabld",Arial;
+    font-size: 16px;
+        line-height: 30px;
+        color: #fff;
+}
+.about-growth-container{
+padding:20px;
+}
+.about-growth-heading{
+    text-align: left;
+    font-family: "ProximaNova-Extrabld",Arial;
+    font-size: 20px;
+}
+.about-growth-para{
+    font-family: "ProximaNova-Extrabld",Arial;
+    font-size: 16px;
+        line-height: 30px;
+}
+.about-growth-button-container{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.about-grwoth-button-container{
+    padding:20px;
+    border-radius: 5px;
+    cursor:pointer;
+    font-family: 'ProximaNova-Extrabld', Arial;
+    font-weight: normal;
+    background: #db7803 ;
+    border: 2px solid #db7803;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    
+    line-height: 30px ;
+    letter-spacing: 1px;
+    padding: 8px 20px ;
+    text-decoration: none;
+    text-shadow: none;
+
+}
+@media all and (min-width:580px){
+    .lading-about-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .landing-heading-and-para{
+        width:40%;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .landing-image{
+        width:100%;
+        height:300px;
+    }
+    .company-policy-container{
+        margin: 0px;
+        margin-top: 100px;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .policy-para{
+        width:50%;
+
+    }
+    .about-card-container{
+        margin-bottom: 50px;
+    }
+    .about-card-para{
+        text-align: left;
+    }
+    .about-our-services-container{
+        margin-bottom: 50px;
+    }
+    .about-history-container{
+        margin-bottom: 50px;
+    }
+    .about-growth-button-container{
+        margin-top: 50px;
+    }
+}

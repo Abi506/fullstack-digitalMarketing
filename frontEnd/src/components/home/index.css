@@ -1,0 +1,194 @@
+.landing-section{
+    height:70vh;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%),url(https://griddigitalmarketing.com/wp-content/uploads/2019/01/digtal_marketing_for_small_businesses.jpg);
+    background-position: right 0px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    align-items: center;
+}
+.common-styles{
+    text-decoration: none;
+    color:white;
+}
+.landing-content-start{
+    font-size: 50px;
+    color: rgba(255,255,255,0.6);
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+}
+.landing-content-end{
+    font-size: 28px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 550;
+    color: #fff;
+
+}
+.landding-section-button{
+    color: #ffffff;
+    border-width: 0px;
+    font-size:16px;
+    font-weight: 600;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    background-color: #f16334;
+    padding:10px;
+    border-radius:5px;
+    padding-top:12px;
+    
+    padding-bottom: 12px;
+    display: inline-block;
+    position:relative;   
+
+    cursor: pointer;
+}
+.card-container{
+    padding: 20px;
+    background-color:#f7f7f7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card-heading{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.card-para{
+    color: #878787;
+    font-size: 140%;
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-bottom: 60px;
+}
+.card-highlighter{
+    color:black;
+    font-weight: 500;
+}
+.services-container{
+    padding:20px;
+    margin-bottom: 40px;
+}
+.services-heading{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color: #2d3033;
+}
+.services-para{
+color:#000000;
+font-size: 100%;
+margin-bottom: 50px;
+text-align: center;
+line-height: 28px;
+}
+.services-list{
+    padding:10px;
+    list-style: none;
+    text-align: left;
+}
+.each-services-list{
+    display: flex;
+    flex-direction: row;
+}
+.services-icons{
+    font-size: 150px;
+    margin-right: 20px;
+    align-self: flex-start;
+}
+.service-icons-two{
+font-size: 100px;
+margin-right: 20px;
+align-self: flex-start;
+}
+.service-icons-three{
+    font-size: 90px;
+    margin-right: 20px;
+    align-self: flex-start;
+    }
+.each-service-heading{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.each-service-para{
+    font-size: 16px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+.services-section-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.services-section-button{
+    color: #ffffff;
+    border-width: 0px;
+    font-size:16px;
+    font-weight: 600;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    background-color: #f16334;
+    padding:10px;
+    border-radius:5px;
+    padding-top:12px;
+    
+    padding-bottom: 12px;
+    display: inline-block;
+    position:relative;   
+
+    cursor: pointer;
+}
+@media all and (min-width:580px){
+    .landing-section{
+        background-size: cover;
+    }
+    .card-container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+    .card-para{
+        width:600px;
+        line-height: 34px;
+    }
+    .services-container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .services-para{
+        width:800px;
+        align-self: center;
+    }
+    .services-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .each-services-list{
+        width:30%;
+        margin:20px;
+    }
+    .react-icons{
+        font-size: 180px;
+        align-self: center;
+    }
+    .react-icons-two{
+        font-size: 150px;
+        align-self: center;
+    }
+    .service-icons-three{
+        font-size: 66px;
+        align-self: center;
+    }
+}

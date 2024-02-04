@@ -1,0 +1,85 @@
+.nav-container-small{
+    display:block;
+    padding:5px;
+    width:100%;
+}
+.nav-container-large{
+    display: none;
+}
+.intermediate-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width:150px;
+}
+.hamburger-icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.hamburgerButton{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+.hamburger-icon{
+    color:lightskyblue;
+}
+.nav-link{
+    text-decoration: none;
+    color:#666;
+    list-style: none;
+    margin:10px;
+}
+.sections-list{
+    padding: 0px;
+    border:none;
+    border-top: 1px solid lightskyblue;
+    padding-left:15px;
+}
+@media all and (min-width:580px){
+    .nav-container-small{
+        display: none;
+    }
+    .nav-container-large{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .logo{
+        width:160px;
+        height: 100px;
+        margin:0px;
+    }
+    .sections-list{
+        display: flex;
+        flex-direction: row;
+        border: none;
+        align-self: center;
+        padding-right:40px ;
+    }
+    .home-large:hover{
+        color:black
+    }
+    .blogs-large:hover{
+        color:black
+    }
+    .services-large:hover{
+        color:black
+    }
+    .about-large:hover{
+        color:black
+    }
+    .contact-large:hover{
+        color:black
+    }
+    
+
+}

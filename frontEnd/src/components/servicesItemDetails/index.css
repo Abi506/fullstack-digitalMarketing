@@ -1,0 +1,145 @@
+.services-details-landing-container{
+    width:100%;
+    background-image: url("https://res.cloudinary.com/dkmnh0kwl/image/upload/v1706958953/remarketing_cdlrqx.jpg");
+    background-size: cover;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.services-details-landing-heading{
+    font-size:28px;
+    color: #fff;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+}
+.services-details-landing-para{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+    color:#fff;
+    width:60%;
+    text-align: center;
+}
+.services-details-card-container{
+    padding:30px;
+}
+.services-details-card-heading{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.services-details-card-para{
+    font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    color:#2d3033;
+    line-height: 1.7em;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;   
+}
+.services-items-benefit-container{
+    padding:30px;
+}
+.services-benefit-heading{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.services-benefit-para{
+    font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    color:#2d3033;
+    line-height: 1.7em;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;   
+    margin-bottom: 30px;
+}
+.request-container-services{
+    height: 300px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.request-heading-services{
+    font-size: 30px;
+    font-weight: 700;
+    color:#333333;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+.request-services-button{
+    color: #ffffff;
+    border-width: 0px;
+    border-color: #f16334;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #f16334;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media all and (min-width:580px){
+    .services-details-landing-container{
+        height: 500px;
+        background-size: cover;
+        width:100%;
+    }
+    .services-details-landing-heading{
+        font-size: 30px;
+    }
+    .services-details-landing-para{
+        font-size: 20px;
+    }
+    .services-details-card-container{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .services-details-card-para{
+        width:70%;
+    }
+    .services-items-benefit-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-benefit-para{
+        text-align: center;
+        width:80%;
+    }
+    .request-container-services{
+        height: 400px;
+    }
+    .request-heading-services{
+        margin-bottom: 30px;
+    }
+    .services-details-card-container{
+        padding:0px;
+        margin:0px;
+    }
+    .services-items-benefit-container{
+        padding:0px;
+        margin:0px;
+    }
+}
